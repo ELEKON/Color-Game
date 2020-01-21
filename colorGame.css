@@ -1,0 +1,60 @@
+body{
+	background-color: #232323;
+	margin: 0;
+}
+
+.box{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin:1.66%;
+	border-radius: 25px;
+}
+
+#container{
+	margin: 0 auto;/*The CSS margin properties are used to create space 
+	around elements, outside of any defined borders.*/
+	max-width: 600px;
+}
+h1{
+	color: white;
+	text-align: center;
+	background: #8000ff;
+	margin: 0;
+	height: 60px;
+}
+
+#stripe{
+	background-color: orange;
+	height: 50px;
+	text-align: center;
+	color: red; /*define the color of all elements that exists in div with id stripe
+	and specific the span message, all other spans might have other color*/ 
+}
+
+.selected{
+	background-color: #8000ff;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 1.5s;
+}
+
+button:hover{
+	color: white;
+	background: #8000ff;
+}
+
+#message{
+	display: inline;
+	width: 20%;
+	text-transform: uppercase;
+}

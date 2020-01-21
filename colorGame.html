@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css"> <!-- link with external css file -->
+</head>
+<body>
+
+<h1>The Great <span id="headercolor">RGB</span>  Color Game</h1>
+
+<!-- this div contains all elemnts of orange stripes with the buttons of "New Colors", "Easy" and
+"Hard" mode and at the same time the message of win or loss-->
+<div id="stripe">
+	<button id="resetButton">New Colors</button>
+	<span id="message"></span>
+	<button id="easyBtn">Easy</button>
+	<button id="hardBtn" class="selected">Hard</button>
+</div>
+
+<!-- this div contains all boxes of this web app game -->
+<div id="container">
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+</div>
+
+<script type="text/javascript" src="colorGame.js"></script> <!-- link with external javascript file -->
+</body>
+</html>
